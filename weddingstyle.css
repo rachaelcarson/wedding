@@ -1,0 +1,155 @@
+    html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		line-height: 1;
+	}
+	
+	ol, ul {
+		list-style: none;
+	}
+	
+	blockquote, q {
+		quotes: none;
+	}
+
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+    
+    body {
+        background: url("Samples/silver.jpg") no-repeat center top / 100%;
+    }
+
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    p, h1, h2 {
+        font-family: 'Muli', sans-serif;
+    }
+
+    .header {
+        position: fixed;
+    	height: 80px;
+    	width: 100%;
+    	background-color: #000112;
+    	z-index: 10;
+        opacity: 0.7;
+    }
+
+    .navigation {
+        float: right;
+        font-size: 18px;
+        color: #F1F1F1; 
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 10px;
+        font-family: 'Muli', sans-serif;
+    }
+
+    #home {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 40px;
+        padding-top: 20px;
+        padding-left: 20px;
+        float: left;
+    }
+
+    .stationary {
+        height: 750px;
+        width: 100%;
+    }
+
+    #stationaryPictures {
+        position: relative;
+        top: 100px;
+        left: 25%;
+    }
+
+    .welcome {
+    	height: 80%;
+    	background: url("Samples/beigepaper.jpg") no-repeat top / 100%;
+        padding-top: 25%;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 25%;
+        color: #000112;
+        z-index: 4;
+        font-size: 30px;
+    }
+
+    .weddingInfo {
+        height: 600px;
+        width: 100%;
+        background-color: #F1F1F1;
+        color: #FF2543;
+        font-size: 30px;
+    }
+
+
+    #weddingInfoPic {
+        float: left;
+        width: 200px;
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+
+    #weddingInfoText {
+        float: right;
+        width: 400px;
+        margin-right: 250px;
+        margin-top: 120px;
+    }
+
+    .headingText {
+        font-family: 'Pinyon Script', cursive;
+        font-size:  65px;
+    }
+
+    .waihekeInfo {
+        background: url("Samples/waiheke.jpg") no-repeat top / 100%;
+        height: 600px;
+        width: 100%;
+        background-color: #F1F1F1;
+        color: #FF2543;
+        font-size: 30px;
+    } 	
+
+    .footer {
+    	height: 20px;
+        width: 100%;
+        background-color: #6A6A61;
+        color: #FCC9B1;
+    }
