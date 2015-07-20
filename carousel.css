@@ -122,6 +122,14 @@ body {
   color: #FF222E;
 }
 
+.footerText {
+  vertical-align: bottom;
+}
+
+.socialMedia {
+  text-align: center;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
