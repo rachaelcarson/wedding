@@ -7,7 +7,6 @@ body {
   color: #5a5a5a;
 }
 
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -33,13 +32,18 @@ body {
   width: auto;
 }
 
+.navbar-inverse {
+    background-color: #0D0B1E;
+    width: 100%;
+    opacity: 100%;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
+  height: 300px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -49,7 +53,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 300px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -58,6 +62,24 @@ body {
   left: 0;
   min-width: 100%;
   height: auto;
+}
+
+.captionLink {
+  font-family: 'Pinyon Script', cursive;
+  color: white;  
+}
+
+.navbar-brand {
+  padding-left: 30px;
+}
+
+.div.carousel-caption {
+  color: black;
+}
+
+.notHappy {
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* MARKETING CONTENT
@@ -76,16 +98,16 @@ body {
   margin-left: 10px;
 }
 
+#welcome {
+  margin-top: 10px;
+}
+
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-#welcome {
-  margin-top: 60px;
 }
 
 /* Thin out the marketing headings */
@@ -103,6 +125,146 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+    @media (min-width: 425px) and (max-width: 499px) {
+  #myCarousel {
+    height: 300px;
+  }
+
+  .carousel {
+    height: 300px;
+  }
+
+  .carousel .item {
+    height: 300px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+    #myCarousel {
+    height: 350px;
+  }
+
+  .carousel {
+    height: 350px;
+  }
+
+  .carousel .item {
+    height: 350px;
+  }
+
+  .notHappy {
+  font-size: 24px;
+  font-weight: normal;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+    #myCarousel {
+    height: 400px;
+  }
+
+  .carousel {
+    height: 400px;
+  }
+
+  .carousel .item {
+    height: 400px;
+  }
+
+  .notHappy {
+  font-size: 29px;
+  font-weight: normal;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  #myCarousel {
+    height: 450px;
+  }
+
+  .carousel {
+    height: 450px;
+    padding-top: 0px;
+  }
+
+  .carousel .item {
+    height: 450px;
+  }
+
+  .notHappy {
+  font-size: 30px;
+  font-weight: normal;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 929px) {
+  #myCarousel {
+    height: 500px;
+  }
+
+  .carousel {
+    height: 500px;
+    padding-top: 0px;
+  }
+
+  .carousel .item {
+    height: 500px;
+  }
+
+  .notHappy {
+  font-size: 30px;
+  font-weight: normal;
+  }
+}
+
+@media (min-width: 930px) and (max-width: 940px) {
+  #myCarousel {
+    height: 550px;
+  }
+
+  .carousel {
+    height: 550px;
+    padding-top: 0px;
+  }
+
+  .carousel .item {
+    height: 550px;
+  }
+
+  .notHappy {
+  font-size: 35px;
+  font-weight: normal;
+  }
+
+  #welcome {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 941px) {
+  #myCarousel {
+    height: 700px;
+  }
+
+  .carousel {
+    height: 700px;
+    padding-top: 0px;
+  }
+
+  .carousel .item {
+    height: 700px;
+  }
+
+  .notHappy {
+  font-size: 40px;
+  font-weight: normal;
+  }
+
+  #welcome {
+    margin-top: 100px;
+  }
+}
+
 @media (min-width: 768px) {
   /* Navbar positioning foo */
 
@@ -110,26 +272,21 @@ body {
     background: #F1F1F1;
   }
 
-  .navbar-wrapper {
+  /*.navbar-wrapper {
     margin-top: 20px;
-  }
+  */}
   .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
   }
 
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
+  .navbar-inverse {
+    opacity: 0.8;
   }
-
-#welcome {
-  margin-top: 100px;
-}
 
   /* Bump up size of carousel content */
 
