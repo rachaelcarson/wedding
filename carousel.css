@@ -127,7 +127,7 @@ body {
 }
 
 .socialMedia {
-  text-align: center;
+  text-align: right;
 }
 
 /* RESPONSIVE CSS
@@ -144,6 +144,10 @@ body {
 
   .carousel .item {
     height: 300px;
+  }
+
+  .socialMedia {
+  text-align: center;
   }
 }
 
@@ -164,6 +168,10 @@ body {
   font-size: 24px;
   font-weight: normal;
   }
+
+  .socialMedia {
+  text-align: center;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 700px) {
@@ -182,6 +190,10 @@ body {
   .notHappy {
   font-size: 29px;
   font-weight: normal;
+  }
+
+  .socialMedia {
+  text-align: center;
   }
 }
 
@@ -203,6 +215,10 @@ body {
   font-size: 30px;
   font-weight: normal;
   }
+
+  .socialMedia {
+  text-align: center;
+  }
 }
 
 @media (min-width: 800px) and (max-width: 929px) {
@@ -222,6 +238,10 @@ body {
   .notHappy {
   font-size: 30px;
   font-weight: normal;
+  }
+
+  .socialMedia {
+  text-align: center;
   }
 }
 
@@ -247,6 +267,10 @@ body {
   #welcome {
     margin-top: 100px;
   }
+
+  .socialMedia {
+  text-align: center;
+  }
 }
 
 @media (min-width: 941px) {
@@ -270,6 +294,10 @@ body {
 
   #welcome {
     margin-top: 100px;
+  }
+  
+  .socialMedia {
+  text-align: center;
   }
 }
 
